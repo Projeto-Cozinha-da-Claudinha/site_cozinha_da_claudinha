@@ -46,7 +46,7 @@ nav li a:hover{
 }
 .banner{
     height: 100vh;
-    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('imagem/comida_boteco.jpg');
+    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('imagem/boteco2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
