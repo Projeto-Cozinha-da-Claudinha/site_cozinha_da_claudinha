@@ -12,17 +12,16 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*width: 100vh;*/
 }
 nav .logo img{
     height: 90px;
 }
-nav .logo a{
+/*nav .logo a{
     text-decoration: none;
     color: #fff;
     font-size: 35px;
     font-weight: 600;
-}
+}*/
 nav ul{
     display: flex;
     align-items: center;
@@ -40,7 +39,7 @@ nav li a{
     padding: 8px 15px;
     border-radius: 5px;
     transition: 0.3s;
-}
+} 
 nav li a:hover{
     background-color: white;
     color: black;
@@ -118,12 +117,19 @@ section h1{
 section h2{
     color: #702309;
 }
-div .porcoes-bebidas{
-    justify-content: space-between;
+.porcoes-bebidas{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
-.porcoes, .bebidas {
-    display: inline;
+.porcoes, .bebidas{
+    display: inline-block;
+    margin: 2%;
 }
+.porcoes ul, .bebidas ul{
+    list-style: none;    
+}
+
 
 /*@keyframes vibrar {
     0%{
