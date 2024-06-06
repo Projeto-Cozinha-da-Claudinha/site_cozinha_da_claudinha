@@ -12,16 +12,17 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /*width: 100vh;*/
 }
 nav .logo img{
     height: 90px;
 }
-/*nav .logo a{
+nav .logo a{
     text-decoration: none;
     color: #fff;
     font-size: 35px;
     font-weight: 600;
-}*/
+}
 nav ul{
     display: flex;
     align-items: center;
@@ -39,7 +40,7 @@ nav li a{
     padding: 8px 15px;
     border-radius: 5px;
     transition: 0.3s;
-} 
+}
 nav li a:hover{
     background-color: white;
     color: black;
@@ -117,19 +118,48 @@ section h1{
 section h2{
     color: #702309;
 }
-.porcoes-bebidas{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+div .porcoes-bebidas{
+    justify-content: space-between;
 }
-.porcoes, .bebidas{
-    display: inline-block;
-    margin: 2%;
+.porcoes, .bebidas {
+    display: inline;
 }
-.porcoes ul, .bebidas ul{
-    list-style: none;    
+.horariofun{
+    position: relative;
+    display: inline;
 }
-
+.iconeHorario{
+    position: relative;
+    top: 13px;
+    right: 8px;
+}
+.contatos{
+    position: relative;
+    display: inline;
+}
+.contatos>a{
+    color: black; 
+    font-weight: normal; 
+    text-decoration: none;
+}
+.contatos>a:hover{
+    text-decoration: underline;
+}
+.iconeInsta{
+    position: relative;
+    top: 6px;
+    right: 8px;
+}
+.iconeZap{
+    position: relative;
+    top: 6px;
+    right: 8px;
+}
+.iconeLocal{
+    position: relative;
+    top: 6px;
+    right: 8px;
+}
 
 /*@keyframes vibrar {
     0%{
