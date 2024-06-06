@@ -1,10 +1,9 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    /*align-items: center;*/
+    font-family: 'Poppins', sans-serif; 
 }
 nav{
     background-color: #D2691E;
@@ -16,12 +15,6 @@ nav{
 }
 nav .logo img{
     height: 90px;
-}
-nav .logo a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 35px;
-    font-weight: 600;
 }
 nav ul{
     display: flex;
@@ -67,36 +60,6 @@ nav li a:hover{
     font-size: 58px;
     font-weight: 600;
 }
-.texto .botoes{
-    margin-top: 30px;
-}
-.texto .botoes button{
-    height: 55px;
-    width: 170px;
-    border-radius: 5px;
-    border: 0;
-    margin: 0 10px;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 0 10px;
-    cursor: pointer;
-    outline: none;
-    transition: 0.3s;
-}
-.texto .botoes button.n-overlay{
-    color: white;
-    background: none;
-    border: 2px solid white;
-}
-.texto .botoes button.n-overlay:hover{
-    color: black;
-    background-color: white;
-}
-.texto .botoes button.overlay{
-    background: white;
-    color: black;
-    animation: vibrar 0.5s ease-in-out infinite both;
-}
 
 section {
     background-color: #f2cb7e;
@@ -107,8 +70,6 @@ hr{
     display: flex;
     width: 10%;
     margin: auto;
-    /*transform: translate(-50%, 0%);
-    transform: translate(90%,0%);*/
     border-top: 2px solid #700500;
 }
 section h1{
@@ -118,11 +79,17 @@ section h1{
 section h2{
     color: #702309;
 }
-div .porcoes-bebidas{
-    justify-content: space-between;
+.porcoes-bebidas{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
-.porcoes, .bebidas {
-    display: inline;
+.porcoes, .bebidas{
+    display: inline-block;
+    margin: 2%;
+}
+.porcoes ul, .bebidas ul{
+    list-style: none;    
 }
 .horariofun{
     position: relative;
