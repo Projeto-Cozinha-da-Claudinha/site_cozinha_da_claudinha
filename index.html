@@ -2,7 +2,6 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Site Boteco do Pirata</title>
@@ -11,47 +10,97 @@
     <nav>
 
         <div class="logo">
-            <img src="imagem/logo.jpg">
-            <!--a href="index.html">Boteco do Pirata</a-->
+            <a href="index.html"><img src="imagem/logo.jpg"></a>
         </div>
 
-        <ul>
-            <li> <a href="#banner"> Home(banner) </a> </li>
-            <li> <a href="#cardapio_bar"> cardápio bar </a> </li>
-            <li> <a href="#funcionamento"> funcionamento </a> </li>
-            <li> <a href="#contato"> Contato </a> </li>
-            <li> <a href="#certificados"> certificados </a> </li>
+        <ul class="menu">
+            <li> <a href="#banner"> Home </a> </li>
+            <li> <a href="#cardapio_bar"> Cardápio </a> </li>
+            <li> <a href="#funcionamento"> Horário de                                    Funcionamento </a> </li>
+            <li> <a href="#funcionamento"> Contato </a> </li>
+            <li> <a href="#certificado"> Certificado </a> </li>
         </ul>
-
     </nav>
+    <div class="spacer"></div>
     <section class="banner" id="banner">
         <div class="texto">
-           <h1 class="titulo">Criar um site incrível somente</h1>
-           <h2 class="sub_titulo">usando HTML & CSS puro</h2>
-           <!--div class="botoes">
-               <button class="n-overlay">Saiba Mais</button>
-               <button class="overlay">Inscrever</button>
-           </div-->
+        <h1 class="titulo">Venha aproveitar o prato feito do Boteco do Pirata!</h1>
+        <h2 class="sub_titulo">Horário em que servimos almoço: <br>de segunda a sexta, das 11h às 14h  <br>
+            <a href="#funcionamento">Peça o cardápio do almoço clicando aqui.</a>
+            </h2>
         </div>
     </section>
+    <br>
     <section class="cardapio_bar" id="cardapio_bar">
-        <div >
+        <br>
             <h1 class="titulo">Cardápio do bar</h1>
+            <br>
+            <hr>
+            <br>
+
+            <div class="doces-bebidas">
+                <div class="bebidas">
+                <h2>Bebidas</h2>
+                <br>
+                <ul class="lista">
+                    <li class="item-lista">Coca Ks Zero</li>
+                    <li class="item-lista">Água com Gás</li>
+                    <li class="item-lista">Água sem Gás</li>
+                    <li class="item-lista">Água Tônica</li>
+                    <li class="item-lista">Refrigerante Lata</li>
+                    <li class="item-lista">Cerveja Eisenbahn</li>
+                    <li class="item-lista">Cerveja Antártica</li>
+                    <li class="item-lista">Cerveja Original</li>
+                    <li class="item-lista">Cerveja Long Neck</li> 
+                    <li class="item-lista"><a href="#funcionamento">Sucos - clique aqui para consultar o sabor do suco </a> </li>      
+                </ul>
+                <br>
+                </div>
+                
+                <div class="doces">
+                <h2> Doces</h2>
+                <br>
+                <ul class="lista">
+                    <li class="item-lista">Pudim</li> 
+                    
+                </ul>
+                <br>
+                </div>
+                    
         </div>
     </section>
+    <br>
     <section class="funcionamento" id="funcionamento">
         <div >
-            <h1 class="titulo">Horário de funcionamento</h1>
+                <div class="contatosPrincipal">
+                    <div class="contatos-1">
+                        <h1 class="titulo">Horário de funcionamento</h1>
+                        <img src="imagem/relogio.png" alt="icone icone_relógio" class="iconeHorario">
+                        <p class="horariofun">
+                            Segunda à Sexta: 08:00 às 15:00
+                            <br><br>
+                        <h1 class="titulo">Contatos</h1>
+                        <a href="https://www.instagram.com/botecodopirata.riopreto/?igsh=MTczbGVkNzV6eWp5aw%3D%3D" target="_blank" rel="external"><img src="imagem/instagram_icone.png" alt="instagram_icone" class="iconeInsta"></a>
+                        <p class="contatos"><a href="https://www.instagram.com/botecodopirata.riopreto/?igsh=MTczbGVkNzV6eWp5aw%3D%3D" target="_blank" rel="external">botecodopirata.riopreto</a></p>
+                        <br>
+                                   <a href="https://wa.me/17981300730" target="_blank" rel="external"><img src="imagem/whatsapp_icone.png" alt="" class="iconeZap"></a>
+                                   <p class="contatos"><a href="https://wa.me/17981300730" target="_blank" rel="external" class="contatos">(17) 98130-0730</a></p>
+                    </div>
+                    <br>
+                    <div class="contatos-2">
+                       <img src="imagem/local_icone.png" alt="local_icone" class="iconeLocal">
+                       <p class="contatos">R. Centenário, 240 - Jardim Europa, São José do Rio Preto - SP, 15014-450</p>
+                       <br> <br>
+                       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14916.947024985835!2d-49.3818209!3d-20.8221439!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bdb303ff6c09f5%3A0xfa2cfe2ec3201085!2sBoteco%20do%20Pirata!5e0!3m2!1spt-BR!2sbr!4v1717593243992!5m2!1spt-BR!2sbr" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+                    </div>
+                </div>
         </div>
     </section>
-    <section class="contato" id="contato">
+    <br>
+    <section class="certificados" id="certificado">
         <div >
-            <h1 class="titulo">Contatos</h1>
-        </div>
-    </section>
-    <section class="certificados" id="certificados">
-        <div >
-            <h1 class="titulo">Certificados</h1>
+            <h1 class="titulo">Certificado Estabelecimento Amigo da Mulher</h1>
+            <img src="imagem/Certificado.png" alt="Certificado de Estabelecimento Amigo da Mulher">
         </div>
     </section>
 </body>
