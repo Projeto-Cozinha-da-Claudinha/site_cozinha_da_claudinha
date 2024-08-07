@@ -27,6 +27,7 @@ nav{
 /* Estilização da logo na barra de navegação */
 nav .logo img{
     height: 80px; /* Define a altura da imagem da logo */
+    border-radius: 50px;
 }
 
 /* Estilização da lista de navegação */
